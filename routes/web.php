@@ -16,3 +16,4 @@ Route::get('/', function () {
 Route::get('login', 'UserController@login');
 Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('bitcoin/fetch', 'BitcoinController@fetch');

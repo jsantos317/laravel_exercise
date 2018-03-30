@@ -16,7 +16,8 @@ mix.js('resources/assets/js/app.js', 'public/js')
         'resources/metronic/assets/vendors/base/vendors.bundle.js',
         'resources/metronic/assets/demo/demo2/base/scripts.bundle.js',
         'resources/metronic/assets/vendors/custom/fullcalendar/fullcalendar.bundle.js',
-        'resources/metronic/assets/app/js/dashboard.js'
+        'resources/metronic/assets/app/js/dashboard.js',
+        'resources/assets/js/bitcoin.js'
     ], 'public/js/metronic.js')
    .sass('resources/assets/sass/app.scss', 'public/css')
     .styles([
@@ -25,6 +26,7 @@ mix.js('resources/assets/js/app.js', 'public/js')
     ], 'public/css/metronic.css')
     .copy('resources/metronic/assets/demo/demo2/media/img/logo/logo.png', 'public/images')
     .copy('resources/metronic/assets/app/media/img/blog/blog1.jpg', 'public/images')
+    .copy('resources/metronic/assets/app/media/img/misc/user_profile_bg.jpg', 'public/images')
     .copy('resources/metronic/assets/app/media/img/client-logos', 'public/images')
     .copy('resources/metronic/assets/app/media/img/users', 'public/images')
     .copyDirectory('resources/metronic/assets/vendors/base/fonts', 'public/css/fonts');
